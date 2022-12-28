@@ -83,20 +83,20 @@
 | htop |[进程查看器](https://htop.dev/)。 |
 | hypseus |[hypseus](https://github.com/DirtBagXon/hypseus-singe)一个在PC、Mac或Raspberry Pi上播放激光唱片街机游戏的模拟器。 |
 | i2c-tools |[i2c-tools](https://i2c.wiki.kernel.org/index.php/I2C_Tools#I2C_Tools_for_Linux)软件包包含了一套用于Linux的I2C工具：一个总线探测工具、一个芯片跳线、寄存器级的SMBus访问助手、EEPROM解码脚本、EEPROM编程工具和一个用于SMBus访问的python模块。所有版本的Linux都被支持，只要内核中包含I2C支持。 |
-| icu |
-| isl |
-| iw |
-| jimtcl |
-| joycond |
-| jpeg-turbo |
-| jsoncpp |
-| json-for-modern-cpp |
-| jstest2 |
-| kbd |
-| kernelfirmwares |
-| kmod |
-| kmsgrab |
-| kodi |
+| icu |[International Components for Unicode](https://icu.unicode.org/)是一个由成熟的C/C++和Java库组成的开源项目，用于支持Unicode、软件国际化和软件全球化。ICU可广泛移植到许多操作系统和环境中。 |
+| isl |[isl](https://libisl.sourceforge.io/)是一个库，用于操作由线性约束条件限定的整数点的集合和关系。 |
+| iw |[iw](https://www.linuxfromscratch.org/blfs/view/svn/basicnet/iw.html)是一个新的基于nl80211的无线设备CLI配置工具。它支持最近添加到内核的所有新驱动程序。 |
+| jimtcl |[Jim](https://github.com/msteveb/jimtcl)是一个小规模的Tcl编程语言的实现。|
+| joycond |[joycond](https://github.com/DanielOgorchock/joycond)是一个linux守护程序，它使用hid-nintendo（以前称为hid-joycon）提供的evdev设备来实现joycon配对。 |
+| jpeg-turbo |[libjpeg-turbo](https://libjpeg-turbo.org/)是一个JPEG图像编解码器，它使用SIMD指令（MMX，SSE2，AVX2，Neon，AltiVec）来加速x86，x86-64，Arm和PowerPC系统上的基线JPEG压缩和解压缩，以及x86，x86-64和Arm系统上的渐进JPEG压缩。 |
+| jsoncpp |[JsonCpp](https://github.com/open-source-parsers/jsoncpp)是一个C++库，允许操作JSON值，包括序列化和反序列化到字符串和从字符串。它还可以在反序列化/序列化步骤中保留现有的注释，使其成为存储用户输入文件的方便格式。 |
+| json-for-modern-cpp | [另一个c++ json库](https://github.com/nlohmann/json)。 |
+| jstest2 |[sdl-jstest和sdl2-jstest](https://gitlab.com/sdl-jstest/sdl-jstest)是简单的程序，可以让你找出系统中检测到的SDL或SDL2的操纵杆，它们各自有多少轴、按钮、帽子和球。它们还可以让你通过显示它们发送的事件或显示它们当前的按钮、轴、帽子或球的状态来测试操纵杆。如果你想测试你的SDL_LINUX_JOYSTICK配置，sdl-jstest就特别有用。 |
+| kbd |[kbd](https://kbd-project.org/)项目包含用于管理Linux控制台（Linux控制台、虚拟终端、键盘等）的实用程序--主要是加载控制台字体和键盘映射。这些实用程序使用内核接口来加载键盘. |
+| kernelfirmwares |[kernelfirmwares](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/)a是一个与Linux内核一起分发的软件包，其中包含某些硬件设备的部分或全部功能所需的固件二进制代码块。这些二进制包通常是专有的，因为一些硬件制造商不发布构建固件本身所需的源代码。 |
+| kmod |[kmod](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/)是一套用于插入、加载和删除内核模块的Linux程序。|
+| kmsgrab |[kmsgrab](http://underpop.online.fr/f/ffmpeg/help/kmsgrab.htm.gz)捕获与指定的CRTC或plane相关的KMS扫描出帧缓冲区，作为一个DRM对象，可以传递给其他硬件函数。 |
+| kodi | [Kodi](https://github.com/xbmc/xbmc)是一个获奖的自由和开源软件媒体播放器和数字媒体的娱乐中心。可作为安卓、Linux、BSD、macOS、iOS、tvOS和Windows操作系统的本地应用程序，Kodi在大多数常见的处理器架构上运行。|
 | kodi-audiodecoder-modplug |
 | kodi-audiodecoder-nosefart |
 | kodi-audiodecoder-sidplay |
@@ -160,50 +160,50 @@
 | kodi-script-module-urllib3 |
 | kodi-skin-confluence-480 |
 | kodi-texturepacker |
-| lame |
-| lba-finder |
-| lcms2 |
-| libao |
-| libass |
+| lame |[LAME](https://lame.sourceforge.io/)是一个高质量的MPEG音频层III（MP3）编码器，在LGPL下授权。 |
+| lba-finder | [lba-finder](https://gitlab.com/recalbox/lba-finder)返回MBR磁盘或镜像的第一个分区的LBA（逻辑块寻址）。|
+| lcms2 |[Little cms](https://sourceforge.net/projects/lcms/)是一个色彩管理库。在ICC配置文件之间实现快速转换。它专注于速度，并可在多个平台上移植（MIT许可）。| 
+| libao |[跨平台音频库](https://ftp.osuosl.org/pub/xiph/releases/ao/)。 |
+| libass |[libass](https://github.com/libass/libass)是一个用于ASS/SSA（Advanced Substation Alpha/Substation Alpha）字幕格式的便携式字幕渲染器。它主要与VSFilter兼容。 |
 | libcapsimage |
-| libcdio |
-| libcec |
-| libconfuse |
-| libcrossguid |
-| libcurl |
-| libdaemon |
-| libdrm |
-| libenet |
-| libevdev |
-| libevent |
-| libffi |
-| libfreeimage |
-| libfribidi |
-| libfuse |
-| libgcrypt |
-| libglib2 |
-| libgpg-error |
-| libhdhomerun |
-| libidn |
-| libinput |
-| libjpeg |
-| liblcf |
-| liblockfile |
-| libmad |
-| libmicrohttpd |
-| libmodplug |
-| libmpeg2 |
-| libnfs |
-| libnl |
-| libnspr |
-| libnss |
-| libogg |
-| libopenssl |
-| libpcap |
-| libplatform |
-| libplist |
-| libpng |
-| libpthread-stubs |
+| libcdio | https://www.gnu.org/software/libcdio/|
+| libcec | https://github.com/Pulse-Eight/libcec |
+| libconfuse | libConfuse是一个用C语言编写的配置文件解析器库，它支持分段和（列表）值，以及其他功能，如单/双引号字符串、环境变量扩展、函数和嵌套的包含语句。值可以是字符串、整数、浮点数、布尔运算和部分。https://github.com/libconfuse/libconfuse |
+| libcrossguid |https://github.com/graeme-hill/crossguid |
+| libcurl |libcurl是一个免费且易于使用的客户端URL传输库，支持DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET 和 TFTP。libcurl支持SSL证书、HTTP POST、HTTP PUT、FTP上传、基于HTTP表单的上传、代理、HTTP/2、HTTP/3、cookies、用户+密码认证（Basic、Digest、NTLM、Negotiate、Kerberos）、文件传输恢复、http代理隧道等等。https://curl.se/libcurl/ |
+| libdaemon | libdaemon是一个轻量级的C语言库，它简化了UNIX守护程序的编写。http://0pointer.de/lennart/projects/libdaemon/#overview|
+| libdrm |用户态使用drm的库。https://dri.freedesktop.org/libdrm/ |
+| libenet |ENet的目的是在UDP（用户数据报协议）之上提供一个相对较薄、简单和强大的网络通信层。它提供的主要功能是可选的可靠、有序的数据包交付。http://enet.bespin.org/|
+| libevdev | libevdev是一个针对evdev设备的包装库。它将处理evdev设备时的常见任务移到一个库中，并为调用者提供一个库接口，从而避免了错误的ioctls等。https://www.freedesktop.org/wiki/Software/libevdev/|
+| libevent |libevent API提供了一种机制，当文件描述符上发生特定事件或达到超时后执行回调函数。此外，libevent还支持由于信号或常规超时而产生的回调。https://libevent.org/ |
+| libffi | 有些程序在编译时可能不知道要向一个函数传递什么参数。例如，一个解释器可能在运行时被告知用于调用某个函数的参数数量和类型。Libffi可以用在这样的程序中，提供一个从解释器程序到编译代码的桥梁。https://sourceware.org/libffi/|
+| libfreeimage |FreeImage是一个开源库项目，为那些希望支持流行的图形图像格式，如PNG、BMP、JPEG、TIFF和其他当今多媒体应用所需要的图像格式的开发者提供服务。FreeImage易于使用，速度快，多线程安全，与所有32位或64位的Windows版本兼容，并且跨平台（与Linux和Mac OS X兼容）。https://freeimage.sourceforge.io/| 
+| libfribidi | 阻止自由软件在中东地区普及的一个缺失环节是缺乏对阿拉伯和希伯来字母的支持。为了有适当的阿拉伯文和希伯来文支持，需要实现bidi算法。我们希望这个库能在中东国家刺激更多的自由软件。 https://github.com/fribidi/fribidi| 
+| libfuse |FUSE（用户空间的文件系统）是用户空间程序向Linux内核输出文件系统的接口。FUSE项目由两部分组成：fuse内核模块（维护在常规内核仓库中）和libfuse用户空间库（维护在该仓库中）。libfuse提供了与FUSE内核模块通信的参考实现。FUSE 文件系统通常被实现为一个与 libfuse 链接的独立应用程序。 libfuse 提供了挂载文件系统、卸载文件系统、从内核读取请求以及发送响应的功能。libfuse 提供了两个 API：一个 "高级 "同步 API，以及一个 "低级 "异步 API。在这两种情况下，从内核传入的请求都是通过回调传递给主程序的。当使用高级API时，回调可以使用文件名和路径而不是节点，当回调函数返回时，请求的处理就结束了。当使用低级别的API时，回调必须使用inodes，并且必须使用一组单独的API函数来明确发送响应。https://github.com/libfuse/libfuse|
+| libgcrypt |Libgcrypt是一个通用的加密库.https://gnupg.org/software/libgcrypt/index.html | 
+| libglib2 |GLib 是一款包含许多有用的处理各类数据结构的 C 例程的软件库，例如处理树、散列、列表和字符串。作为有用的通用 C 库，它为 GTK+、GIMP 和 GNOME 等许多项目所使用。https://download.gnome.org/sources/glib/|
+| libgpg-error |Libgpg-error是一个小型库，它最初为所有GnuPG组件定义了常见的错误值。 |
+| libhdhomerun |https://github.com/Silicondust/libhdhomerun|
+| libidn | Libidn的目的是对国际化的域名进行编码和解码。https://www.gnu.org/software/libidn/|
+| libinput |libinput是一个在Wayland合成器中处理输入设备的库，并提供一个通用的X.Org输入驱动。它提供了设备检测、设备处理、输入设备事件处理和抽象，从而最大限度地减少合成器需要的自定义输入代码量，以提供用户期望的通用功能集。https://www.freedesktop.org/wiki/Software/libinput/| 
+| libjpeg |https://libjpeg.sourceforge.net/| 
+| liblcf |liblcf是一个处理RPG Maker 2000和2003游戏数据的库。它可以读取和写入LCF和XML文件。|
+| liblockfile | https://github.com/miquels/liblockfile|
+| libmad | https://www.underbit.com/products/mad/|
+| libmicrohttpd |libmicrohttpd可以使运行一个 HTTP 服务器作为另一个应用程序的一部分变得容易。https://www.gnu.org/software/libmicrohttpd/ |
+| libmodplug |https://modplug-xmms.sourceforge.net|
+| libmpeg2 |https://libmpeg2.sourceforge.io/ |
+| libnfs | https://github.com/sahlberg/libnfs|
+| libnl |libnl套件是一个库的集合，为基于netlink协议的Linux内核接口提供API。|
+| libnspr | https://firefox-source-docs.mozilla.org/nspr/index.html|
+| libnss | 网络安全服务（NSS）是一套库，旨在支持跨平台的安全客户端和服务器应用程序的开发。https://firefox-source-docs.mozilla.org/security/nss/index.html|
+| libogg | https://xiph.org/ogg/|
+| libopenssl |OpenSSL是一个强大的、商业级的、全功能的开源工具包，用于传输层安全（TLS）协议，以前被称为安全套接字层（SSL）协议。该协议的实现是基于一个全强度的通用加密库，它也可以独立使用。https://github.com/openssl/openssl |
+| libpcap |libpcap是一个独立于系统的用户级数据包捕获接口。libpcap提供了一个可移植的低级网络监控框架。其应用包括网络统计收集、安全监控、网络调试等。由于几乎每个系统供应商都为数据包捕获提供了不同的接口，而且我们已经开发了几个需要这种功能的工具，所以我们创建了这个与系统无关的API，以方便移植，并减轻每个应用程序中对几个与系统相关的数据包捕获模块的需要。https://github.com/the-tcpdump-group/libpcap|
+| libplatform | 这个库为其他库提供了特定的平台支持，并被libCEC和Kodi的二进制附加组件所使用。|
+| libplist |一个小型的可移植C语言库，用于处理二进制或XML格式的Apple Property List文件。https://github.com/libimobiledevice/libplist |
+| libpng |http://www.libpng.org/pub/png/libpng.html|
+| libpthread-stubs |libpthread-stubs软件包为libc中没有提供的或默认提供的pthread函数提供了弱的别名。这对于那些依靠 pthread stubs 来选择使用 pthreads 的库是非常有用的。在Linux上，所有必要的pthread函数都是可用的，所以这个包只是一个占位符。|
 | libretro-2048 |
 | libretro-81 |
 | libretro-a5200 |
@@ -306,88 +306,88 @@
 | libretro-xmil |
 | libretro-xrick |
 | libretro-yabasanshiro |
-| libshairplay |
-| libsidplay2 |
-| libsndfile |
-| libtasn1 |
-| libtheora |
-| libtirpc |
-| libtool |
-| libunistring |
-| libusb |
-| libusb-compat |
-| libuv |
-| libvorbis |
-| libvpx |
-| libwebsockets |
-| libxcb |
-| libxkbcommon |
-| libxml2 |
-| libxmp-lite |
-| libxslt |
-| libzip |
-| libzlib |
-| linapple-pie |
-| linux |
-| linuxconsoletools |
-| lirc-tools |
-| lockfile-progs |
-| lz4 |
-| lzip |
-| lzo |
-| m4 |
-| megatools |
-| mesa3d |
-| meson |
-| mk_arcade_joystick_rpi |
-| moonlight-embedded |
-| mosquitto |
-| mpc |
-| mpfr |
-| mpg123 |
-| mpv |
-| mtdev |
-| mtools |
-| mupen64plus-audio-sdl |
+| libshairplay |AirPlay server.https://github.com/juhovh/shairplay |
+| libsidplay2 | https://sidplay2.sourceforge.net/ |
+| libsndfile |libsndfile是一个C语言库，用于读写包含采样音频数据的文件。https://github.com/libsndfile/libsndfile|
+| libtasn1 | 这份文件描述了Libtasn1库，它提供了抽象语法符号一（ASN.1，由X.680 ITU-T建议规定）解析和结构管理，以及区分编码规则（DER，根据X.690）编码和解码功能。https://www.gnu.org/software/libtasn1/manual/libtasn1.html|
+| libtheora | https://www.theora.org/doc/libtheora-1.0/index.html.|
+| libtirpc | https://sourceforge.net/projects/libtirpc/.|
+| libtool | 著名的"libtool"，它与autoconf, automake一起构成了gnu下常用的构建系统。 https://www.gnu.org/software/libtool/ |
+| libunistring | unicode的字符串处理库。https://www.gnu.org/software/libunistring/|
+| libusb | https://libusb.info/ |
+| libusb-compat |https://github.com/libusb/libusb-compat-0.1|
+| libuv | libuv是一个多平台支持库，专注于异步I/O。http://docs.libuv.org/en/v1.x/ |
+| libvorbis | Ogg Vorbis是一种完全开放的、非专有的、无专利和版权的、通用的压缩音频格式，适用于中高质（8kHz-48.0kHz，16+比特，复音）音频和音乐，固定和可变比特率为16-128kbps/channel。这使Vorbis与MPEG-4（AAC）等音频表现形式处于同一竞争级别，与MPEG-1/2音频层3、MPEG-4音频（TwinVQ）、WMA和PAC类似，但性能更高。https://xiph.org/vorbis/|
+| libvpx | https://www.webmproject.org/code/|
+| libwebsockets | Libwebsockets（LWS）是一个灵活的、轻量级的纯C语言库，使用非阻塞事件循环，以很小的占用空间轻松实现现代网络协议。https://libwebsockets.org/|
+| libxcb | https://xcb.freedesktop.org/| 
+| libxkbcommon | xkbcommon是一个用于处理键盘描述的库，包括从磁盘加载它们，解析它们和处理它们的状态。它主要用于客户端工具包、窗口系统和其他系统应用。https://xkbcommon.org/|
+| libxml2 | https://github.com/GNOME/libxml2 |
+| libxmp-lite | https://github.com/libxmp/libxmp |
+| libxslt |http://xmlsoft.org/libxslt/tutorial/libxslttutorial.html |
+| libzip |https://libzip.org/|
+| libzlib |zlib被设计成一个免费的、通用的、无法律约束的--也就是说，不受任何专利保护的--无损数据压缩库，几乎可以在任何计算机硬件和操作系统上使用。zlib数据格式本身是可以跨平台移植的。与Unix compress(1)和GIF图像格式中使用的LZW压缩方法不同，目前在zlib中使用的压缩方法基本上不会扩展数据。(在极端情况下，LZW可以使文件大小增加两倍或三倍。)zlib的内存占用也是独立于输入数据的，如果有必要，可以在压缩中付出一些代价来减少。https://zlib.net/|
+| linapple-pie | https://github.com/dabonetn/linapple-pie |
+| linux | https://www.kernel.org | 
+| linuxconsoletools | https://slackbuilds.org/repository/14.2/system/linuxconsoletools/ |
+| lirc-tools |LIRC是一个软件包，允许你解码和发送许多（但不是全部）常用遥控器的红外线信号。https://www.lirc.org/ |
+| lockfile-progs | https://linux.die.net/man/1/lockfile-progs |
+| lz4 | LZ4是无损压缩算法，每核提供的压缩速度大于500MB/s，可在多核CPU上扩展。它有一个极快的解码器，每核速度为多GB/s，通常在多核系统上达到RAM的速度限制。https://github.com/lz4/lz4 |
+| lzip | Lzip是一个无损数据压缩器，其用户界面类似于gzip或bzip2的界面。Lzip使用 "Lempel-Ziv-Markov chain-Algorithm"（LZMA）流格式的简化形式，并提供一个3因素完整性检查，以最大限度地提高互操作性和优化安全性。Lzip的压缩速度与gzip差不多（lzip -0），或对大多数文件的压缩速度超过bzip2（lzip -9）。解压速度介于 gzip 和 bzip2 之间。从数据恢复的角度来看，Lzip比gzip和bzip2更好。Lzip 是经过精心设计、编写和测试的，以取代 gzip 和 bzip2，成为类似 unix 系统的标准通用压缩格式。https://www.nongnu.org/lzip/ |
+| lzo | http://www.oberhumer.com/opensource/lzo/ |
+| m4 | GNU M4是传统Unix宏处理器的一个实现。它主要与SVR4兼容，尽管它有一些扩展（例如，处理超过9个位置参数的宏）。GNU M4也有内置的功能，包括文件、运行shell命令、做算术等等。https://www.gnu.org/software/m4/ |
+| megatools | Megatools是一个程序集，用于从你的桌面或服务器的命令行访问Mega.nz服务。https://megatools.megous.com/ |
+| mesa3d |开源OpenGL, OpenGL ES, Vulkan, OpenCL实现。是计算机图形渲染的开源解决方案的重要基础设施。https://www.mesa3d.org/ |
+| meson | 一个构建系统，主要用于mesa3d。 https://mesonbuild.com/ |
+| mk_arcade_joystick_rpi |https://github.com/recalbox/mk_arcade_joystick_rpi |
+| moonlight-embedded | Moonlight Embedded允许你将你的全部游戏收藏从你强大的Windows桌面流向你的（嵌入式）Linux系统，如Raspberry Pi, CuBox-i和ODROID。 https://github.com/moonlight-stream/moonlight-embedded |
+| mosquitto | https://mosquitto.org/|
+| mpc | GNU MPC是一个用于复数运算的C库，具有任意高的精度和正确的舍入结果。它将IEEE-754标准中关于固定精度的实数浮点数的原则扩展到复数，为每一个操作提供了明确的语义。同时，高精度下的操作速度是一个主要的设计目标。https://www.multiprecision.org/mpc/ |
+| mpfr |https://www.mpfr.org/ |
+| mpg123 | https://www.mpg123.de/ |
+| mpv | https://mpv.io/ |
+| mtdev | 用于linux内核的多点触碰（MT）协议转换库。|
+| mtools | https://www.gnu.org/software/mtools/ |
+| mupen64plus-audio-sdl | https://github.com/mupen64plus/mupen64plus-audio-sdl |
 | mupen64plus-core |
 | mupen64plus-input-sdl |
 | mupen64plus-rsphle |
 | mupen64plus-uiconsole |
 | mupen64plus-video-glide64mk2 |
 | mupen64plus-video-rice |
-| nano |
-| nanoarch |
-| nasm |
-| ncurses |
-| nettle |
-| nfs-utils |
-| nghttp2 |
-| ninja |
-| nodejs |
-| ntfs-3g |
-| ntp |
-| openbor |
-| opus |
-| opusfile |
-| oracle-mysql |
-| oricutron |
-| p7zip |
-| pamix |
-| parted |
-| patchelf |
-| pcre |
-| perl |
-| perl-parse-yapp |
-| pixman |
-| pkgconf |
-| popt |
-| ppsspp |
-| prelink-cross |
-| procps-ng |
-| protobuf |
-| pugixml |
-| pulseaudio |
-| python3 |
+| nano | https://www.nano-editor.org/ |
+| nanoarch | https://github.com/heuripedes/nanoarch |
+| nasm | 这是网络汇编程序（NASM）的项目网页，这是一个适用于x86 CPU架构的汇编程序，可以移植到几乎所有的现代平台，并且可以为许多新旧平台生成代码。https://www.nasm.us/ |
+| ncurses | TUI库。https://invisible-island.net/ncurses/announce.html|
+| nettle | Nettle是一个加密库，它被设计成可以轻松适应或多或少的任何环境。在面向对象语言（C++、Python、Pike...）的加密工具包中，在LSH或GNUPG等应用中，甚至在内核空间中。https://www.lysator.liu.se/~nisse/nettle/ |
+| nfs-utils | http://git.linux-nfs.org/?p=steved/nfs-utils.git;a=summary |
+| nghttp2 | https://nghttp2.org/ |
+| ninja | https://ninja-build.org/ |
+| nodejs | https://nodejs.org/en/ |
+| ntfs-3g | https://www.tuxera.com/company/open-source/ |
+| ntp | http://www.ntp.org/ntpfaq/NTP-s-def.htm |
+| openbor | https://github.com/DCurrent/openbor |
+| opus | https://opus-codec.org/ |
+| opusfile | https://github.com/xiph/opusfile |
+| oracle-mysql | https://www.oracle.com/mysql/ |
+| oricutron | https://github.com/pete-gordon/oricutron |
+| p7zip | https://p7zip.sourceforge.net/ |
+| pamix | https://github.com/patroclos/PAmix |
+| parted | https://www.gnu.org/software/parted/ GNU Parted可以操作分区表。这对于为新的操作系统创造空间、重新组织磁盘使用、复制硬盘上的数据和磁盘成像很有用。该软件包包含一个库，libparted，以及一个命令行前端，parted，它也可以在脚本中使用。 |
+| patchelf | PatchELF是一个用于修改现有ELF可执行文件和库的简单工具。https://github.com/NixOS/patchelf |
+| pcre | PCRE库是一组实现正则表达式模式匹配的函数.https://www.pcre.org/ |
+| perl | https://www.perl.org/ |
+| perl-parse-yapp | Parse::Yapp (Yet Another Perl Parser compiler)是一个模块集合，让你生成和使用类似yacc的线程安全（可重入）的解析器，并具有perl面向对象的接口。https://metacpan.org/pod/Parse::Yapp |
+| pixman | http://www.pixman.org/ |
+| pkgconf | pkgconf是一个有助于为开发框架配置编译器和链接器标志的程序。它类似于freedesktop.org的pkg-config，在提供额外功能的同时也保持了兼容性。http://pkgconf.org/|
+| popt | 命令行解析工具。https://github.com/rpm-software-management/popt|
+| ppsspp | https://www.ppsspp.org/模拟器 |
+| prelink-cross | https://wiki.yoctoproject.org/wiki/Cross-Prelink |
+| procps-ng | 用于浏览procfs的命令行工具，procfs是一个由内核动态生成的 "伪 "文件系统，提供关于其进程表中条目状态的信息。https://gitlab.com/procps-ng/procps |
+| protobuf | protobuf是谷歌的语言中立、平台中立、可扩展的机制，用于序列化结构化数据--想想XML，但更小、更快、更简单。你只需定义一次你希望你的数据如何被结构化，然后你就可以使用特殊生成的源代码，轻松地从各种数据流和使用各种语言写入和读取你的结构化数据。https://developers.google.com/protocol-buffers |
+| pugixml | pugixml是一个轻量级的C++ XML处理库。https://pugixml.org/ |
+| pulseaudio | PulseAudio是一个用于POSIX操作系统的声音服务器系统，这意味着它是你的声音应用程序的代理。https://www.freedesktop.org/wiki/Software/PulseAudio/ |
+| python3 | https://www.python.org/ |
 | python-certifi |
 | python-charset-normalizer |
 | python-gobject |
@@ -405,7 +405,7 @@
 | python-setuptools |
 | python-six |
 | python-urllib3 |
-| qemu |
+| qemu | https://www.qemu.org/ |
 | qtsixa |
 | qtsixa-shanwan |
 | rapidjson |
